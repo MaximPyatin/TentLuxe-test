@@ -774,6 +774,9 @@ button:hover{
   body{
     font-size: 100%;
   }
+  .frame-frame{
+    height: 1007px;
+  }
   .frame-text63{
     font-size:16px;
     top: 32px;
@@ -781,10 +784,10 @@ button:hover{
   }
   .frame-image1{
     width: 100%;
-    height: 8%;
+    height: 29%;
   }
   .frame-text06{
-    top: 6.5%;
+    top: 24%;
     left: 5%;
     font-size: 5px;
   }
@@ -796,7 +799,7 @@ button:hover{
     font-size: 9px;
   }
   .frame-text03{
-    top:6.7%;
+    top:24.7%;
     left: 4.9%;
     font-size: 14px;
     width: 176px;
@@ -808,7 +811,7 @@ button:hover{
     width: 91%;
     left: 4.5%;
     top: 283px;
-    height: 560px;
+    height: 219px;
   }
   .frame-text69{
     font-size: 8px;
@@ -816,14 +819,14 @@ button:hover{
     left: 25px;
   }
   .frame-text09{
-    top: 6%;
+    top: 15%;
     left: 5%;
     width: 90%;
     font-size: 96%;
     line-height: 106%;
   }
   .frame-frame1{
-    top: 21%;
+    top: 55%;
     left: 9%;
     height: 10%;
     width: 23%;
@@ -832,13 +835,13 @@ button:hover{
   .frame-text13{
     font-size: 6px;
     width: 83px;
-    top: 29%;
+    top: 71%;
   }
   .frame-text11{
     font-size: 11px;
   }
   .frame-frame2{
-    top: 21%;
+    top: 55%;
     left: 38%;
     height: 10%;
     width: 23%;
@@ -849,10 +852,10 @@ button:hover{
   .frame-text16{
     font-size: 6px;
     width: 83px;
-    top: 29%;
+    top: 71%;
   }
   .frame-frame3{
-    top: 21%;
+    top: 55%;
     left: 67%;
     height: 10%;
     width: 23%;
@@ -863,6 +866,111 @@ button:hover{
   .frame-text20{
     font-size: 6px;
     width: 83px;
-    top: 29%;
+    top: 71%;
+  }
+  .frame-text22{
+    top: 86%;
+    left: 4%;
+    font-size: 7px;
+  }
+  .frame-img042911{
+  top: 511px;
+  width: 259px;
+  height: 195px;
+  }
+  .frame-text30{
+    top: 560px;
+    left: 200px;
+    font-size: 8px;
+  }
+  .frame-text32{
+    left: 200px;
+    top: 615px;
+    font-size: 7px;
+    width: 183px;
+  }
+  .frame-text41{
+    font-size: 17px;
+    left: 6px;
+  }
+  .frame-text44{
+    font-size: 17px;
+    left: 6px;
+  }
+  .frame-group8{
+    left: 200px;
+    top: 686px;
+    width: 66px;
+    height: 34px;
+  }
+  .frame-text42{
+    font-size: 6px;
+    top: 24px;
+    width: 86px;
+  }
+  .frame-group9{
+    left: 290px;
+    top: 686px;
+    width: 66px;
+    height: 34px;
+  }
+  .frame-text45{
+    font-size: 6px;
+    top: 24px;
+    width: 86px;
+  }
+  .frame-text28{
+    top: 577px;
+    left: 200px;
+    font-size: 14px;
+    width: 139px;
+  }
+  .frame-image2{
+    top: 706px;
+    width: 225px;
+    height: 178px;
+    left: 165px;
+  }
+  .frame-text49{
+    top: 760px;
+    left: 10px;
+    font-size: 8px;
+  }
+  .frame-text47{
+    top: 778px;
+    left: 10px;
+    font-size: 11px;
+    width: 153px;
+    height: 128px;
+  }
+  .frame-text67{
+    font-size: 13px;
+    top:925px;
+    left: 0;
+    width: auto;
+  }
+  .frame-group14{
+    top: 960px;
+    left: 110px;
+  }
+  .frame-text53,.frame-text55,.frame-text54,.frame-text59,.frame-text56,.frame-text58,.frame-text61{
+    font-size: 6px;
+  }
+  .frame-frame5,.frame-frame6{
+    top: 15px;
+    gap:3px;
+  }
+  .frame-group15{
+    top: 960px;
+    left: 190px;
+  }
+  .frame-text61{
+    top: 960px;
+    left: 270px;
+  }
+  .frame-telegram11{
+    top: 941px;
+    left: 249px;
+    width: 10px;
   }
 }
