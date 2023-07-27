@@ -770,3 +770,11 @@ button:hover{
   text-decoration: none;
   width:169px;
 }
+@media screen and (max-width:320px){
+  .frame-text63{
+    font-size:18px;
+    top: 32px;
+    left: 22px;
+  }
+}
+
