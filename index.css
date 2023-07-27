@@ -771,9 +771,98 @@ button:hover{
   width:169px;
 }
 @media screen and (max-width:480px){
+  body{
+    font-size: 100%;
+  }
   .frame-text63{
-    font-size:18px;
+    font-size:16px;
     top: 32px;
     left: 22px;
+  }
+  .frame-image1{
+    width: 100%;
+    height: 8%;
+  }
+  .frame-text06{
+    top: 6.5%;
+    left: 5%;
+    font-size: 5px;
+  }
+  .frame-button{
+    top: 30px;
+    left:72%;
+    width: 22%;
+    height: 27px;
+    font-size: 9px;
+  }
+  .frame-text03{
+    top:6.7%;
+    left: 4.9%;
+    font-size: 14px;
+    width: 176px;
+  }
+  .frame-text05{
+    padding: 1px;
+  }
+  .frame-frame4{
+    width: 91%;
+    left: 4.5%;
+    top: 283px;
+    height: 560px;
+  }
+  .frame-text69{
+    font-size: 8px;
+    top: 265px;
+    left: 25px;
+  }
+  .frame-text09{
+    top: 6%;
+    left: 5%;
+    width: 90%;
+    font-size: 96%;
+    line-height: 106%;
+  }
+  .frame-frame1{
+    top: 21%;
+    left: 9%;
+    height: 10%;
+    width: 23%;
+
+  }
+  .frame-text13{
+    font-size: 6px;
+    width: 83px;
+    top: 29%;
+  }
+  .frame-text11{
+    font-size: 11px;
+  }
+  .frame-frame2{
+    top: 21%;
+    left: 38%;
+    height: 10%;
+    width: 23%;
+  }
+  .frame-text15{
+    font-size: 11px;
+  }
+  .frame-text16{
+    font-size: 6px;
+    width: 83px;
+    top: 29%;
+  }
+  .frame-frame3{
+    top: 21%;
+    left: 67%;
+    height: 10%;
+    width: 23%;
+  }
+  .frame-text18{
+    font-size: 11px;
+  }
+  .frame-text20{
+    font-size: 6px;
+    width: 83px;
+    top: 29%;
   }
 }
