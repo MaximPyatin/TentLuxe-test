@@ -26,12 +26,53 @@
       }
     </style>
     <link rel="stylesheet" href="./style.css" />
+    
+
+   
+      
+
   </head>
   <body>
     <div>
       <link href="./index.css" rel="stylesheet" />
-
       <div class="frame-container">
+        <div id="orderModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+              <h2>Оформление заказа</h2> 
+            </div>
+            
+            <form id="orderForm">
+              <input type="number"id="tentsCount" placeholder="Количество шатров">
+              <input type="number" id="rentDays" placeholder="Количество дней аренды">
+              <div class="furniture-field">
+                <label class="CheboxText">Доставка</label>
+                <input type="checkbox" id="needDelivery" class="big-checkbox">
+              </div>   
+              <div class="furniture-field">
+                <label class="CheboxText">Сборка</label>
+                <input type="checkbox" id="needAssembly" class="big-checkbox">  
+              </div>
+              <div class="furniture-field">
+                <label class="CheboxText" for="needFurniture">Мебель</label>
+                <input type="checkbox" id="needFurniture" class="big-checkbox">  
+              </div>
+              <div id="furnitureCountBlock">
+              <input type="number" id="furnitureCount" placeholder="Количество мебели"> 
+              </div>
+              <input type="tel" id="phone" name="phone" value="+7" placeholder="Номер телефона">
+              <input type="text" id="contactPerson" name="contactPerson" placeholder="Фамилия Имя Отчество">
+              <input type="text" id="address" name="address" placeholder="Адрес доставки">
+              <div style="display: flex; justify-content: right;">
+                <div id="totalPrice" style="font-size: 26px; margin-top: 10px; margin-right: 28px;" >0</div>
+                <button type="submit" style="padding: 12px 28px 12px 28px; font-size: 19px;">Заказать</button> 
+              </div>
+            </form>
+        
+          </div>
+        
+        </div>
         <div class="frame-frame">
           <img
             alt="image17132"
@@ -178,5 +219,6 @@
         </div>
       </div>
     </div>
+    <script src="/modal.js"></script>
   </body>
 </html>

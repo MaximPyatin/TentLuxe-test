@@ -21,7 +21,7 @@
 .frame-image1 {
   top: 0px;
   left: 0px;
-  width: 1920px;
+  width: 1856px;
   height: 972px;
   position: absolute;
   border-radius: 30px;
@@ -978,4 +978,141 @@ button:hover{
     left: 249px;
     width: 10px;
   }
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+
+}
+
+/* Содержимое */
+.modal-content {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px; 
+  background-color: #f4f4f4;
+  margin: 20% auto; 
+  padding: 20px;
+  width: 920px;
+  border-radius: 32px;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+}
+.modal-row input {
+  width: 70%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  margin-left: 97%;
+  width: 17px;
+  height: 26px;
+
+}
+.close h2{
+  justify-content: center;
+}
+.modal-content input,
+.modal-content button {
+  width: 100%;
+}
+.modal-content label {
+  margin-bottom: 10px;
+}
+.modal-content button {
+  width: auto;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+form {
+  justify-content: space-between; 
+  width: 360px;
+  margin: 0 auto;
+}
+.small-field {
+  width: 10px;
+  height: 10px;
+}
+.small-field + label {
+  margin-left: 5px; 
+}
+input, 
+button {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 36px;
+  margin-bottom: 15px;
+}
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+}
+.needFurniture{
+  width: 10px;
+}
+.furniture-field {
+  display: flex;
+  align-items: center;
+}
+.big-checkbox {
+  width: 20px;
+  height: 20px;
+}
+.furniture-field label {
+  margin-left: 10px; 
+}
+.CheboxText{
+  font-size: 24px;
+}
+.modal-header h2{
+  padding-bottom: 24px;
+}
+#furnitureCountBlock {
+  display: none; 
+}
+.furniture-field input,
+.furniture-field label {
+  display: block; 
+}
+.furniture-field input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+.furniture-field label {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.furniture-field {
+  align-items: center; 
+}
+.furniture-field input[type="checkbox"] {
+ 
+  margin: 0;
+  margin-top: -3px;
+}
+.delivery-field,
+.assembly-field {
+  display: flex;
+  align-items: center;
+}
+button {
+  margin-bottom: 0;
+}
+.delivery-field input, 
+.assembly-field input {
+  margin: 0;
 }
