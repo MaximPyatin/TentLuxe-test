@@ -36,39 +36,98 @@
     <div>
       <link href="./index.css" rel="stylesheet" />
       <div class="frame-container">
+
+
         <div id="orderModal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
             <div class="modal-header">
               <h2>Оформление заказа</h2> 
+              <div class="modal-header-content">
+                <div class="spisok">
+                  <button data-tab-switch="tent">Шатер</button>
+                  <button data-tab-switch="furniture">Мебель</button>
+                  <button data-tab-switch="dishes">Посуда</button>
+                </div>
+              </div>
             </div>
-            
-            <form id="orderForm">
-              <input type="number"id="tentsCount" placeholder="Количество шатров">
-              <input type="number" id="rentDays" placeholder="Количество дней аренды">
-              <div class="furniture-field">
-                <label class="CheboxText">Доставка</label>
-                <input type="checkbox" id="needDelivery" class="big-checkbox">
-              </div>   
-              <div class="furniture-field">
-                <label class="CheboxText">Сборка</label>
-                <input type="checkbox" id="needAssembly" class="big-checkbox">  
+          
+            <div class="con">
+              <div class="tab" data-tab="tent">
+                <div class="content-left">
+                  <div class="img">
+                    <img class="imge" src="/public/type_1/tent_4.jpg">
+                  </div>
+                  <button class="prev" style="margin-left: 118px; margin-top: 15px;">&#8592;</button>
+                  <button class="next" style="margin-left: 5px;margin-top: 15px;">&#8594;</button>
+                </div>
+                <div class="content-right">
+                  <form id="orderForm">
+                    <select class="selection-option">
+                      <option value="1">Тип шатра №1</option>  
+                      <option value="2">Тип шатра №2</option>
+                      <option value="3" >Тип шатра №3</option>
+                    </select>
+                    <input type="number"id="tentsCount" placeholder="Количество шатров">
+                    <input type="number" id="rentDays" placeholder="Количество дней аренды">
+                    <div class="furniture-field">
+                      <label class="CheboxText">Доставка</label>
+                      <input type="checkbox" id="needDelivery" class="big-checkbox">
+                    </div>   
+                    <div class="furniture-field">
+                      <label class="CheboxText">Сборка</label>
+                      <input type="checkbox" id="needAssembly" class="big-checkbox">  
+                    </div>
+  
+                    <div id="furnitureCountBlock">
+                    <input type="number" id="furnitureCount" placeholder="Количество мебели"> 
+                    </div>
+  
+                    <div style="display: flex; justify-content: right; padding-top: 90px; padding-bottom: 20px;">
+                      <div id="totalPrice" style="font-size: 26px; margin-top: 10px; margin-right: 28px;" >0</div>
+                      <button type="submit" style="padding: 12px 28px 12px 28px; font-size: 19px;">Заказать</button> 
+                    </div>
+                  </form>
+                </div>
               </div>
-              <div class="furniture-field">
-                <label class="CheboxText" for="needFurniture">Мебель</label>
-                <input type="checkbox" id="needFurniture" class="big-checkbox">  
+              
+              <div class="tab" data-tab="furniture">
+                <div class="content-left">
+                  <div class="img">
+                    <img class="imge" src="/public/type_1/tent_4.jpg">
+                  </div>
+                  <button class="prev" style="margin-left: 118px; margin-top: 15px;">&#8592;</button>
+                  <button class="next" style="margin-left: 5px;margin-top: 15px;">&#8594;</button>
+                </div>
+                <div class="content-right">
+                  <form id="orderForm">
+                    <select class="selection-option">
+                      <option value="1">Тип мебили №1</option>  
+                      <option value="2">Тип мебели №2</option>
+                      <option value="3" >Тип мебели №3</option>
+                    </select>
+                    <input type="number"id="tentsCount" placeholder="Количество комплектов (3 стола,6 лавок)">
+                    <input type="number" id="rentDays" placeholder="Количество дней аренды">
+                    <div class="furniture-field">
+                      <label class="CheboxText">Доставка</label>
+                      <input type="checkbox" id="needDelivery" class="big-checkbox">
+                    </div>   
+  
+                    <div id="furnitureCountBlock">
+                    <input type="number" id="furnitureCount" placeholder="Количество мебели"> 
+                    </div>
+  
+                    <div style="display: flex; justify-content: right; padding-top: 132px; padding-bottom: 20px;">
+                      <div id="totalPrice" style="font-size: 26px; margin-top: 10px; margin-right: 28px;" >0₽</div>
+                      <button type="submit" style="padding: 12px 28px 12px 28px; font-size: 19px;">Заказать</button> 
+                    </div>
+                  </form>
+                </div>
               </div>
-              <div id="furnitureCountBlock">
-              <input type="number" id="furnitureCount" placeholder="Количество мебели"> 
-              </div>
-              <input type="tel" id="phone" name="phone" value="+7" placeholder="Номер телефона">
-              <input type="text" id="contactPerson" name="contactPerson" placeholder="Фамилия Имя Отчество">
-              <input type="text" id="address" name="address" placeholder="Адрес доставки">
-              <div style="display: flex; justify-content: right;">
-                <div id="totalPrice" style="font-size: 26px; margin-top: 10px; margin-right: 28px;" >0</div>
-                <button type="submit" style="padding: 12px 28px 12px 28px; font-size: 19px;">Заказать</button> 
-              </div>
-            </form>
+              
+            </div>     
+
+
         
           </div>
         
@@ -193,6 +252,12 @@
             <span class="frame-text59"><span>Помощь</span></span>
           </div>
           <span class="frame-text61"><span>Мы в соцсетях</span></span>
+
+          <select class="select-city">
+            <option value="Смоленск">Смоленск</option>
+            <option value="Орел">Орел</option>
+            <option value="Брянск">Брянск</option>
+          </select>
           <span class="frame-text63">
             <span class="frame-text64">TENT<span class="frame-text65">LUXE</span></span>
             <span class="frame-text67">

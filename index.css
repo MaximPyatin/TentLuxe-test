@@ -198,6 +198,20 @@ button:hover{
   font-stretch: normal;
   text-decoration: none;
 }
+.select-city{
+    background-color: transparent; 
+    top: 86px;
+    left: 1404px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    text-align: left;
+    font-family: Lato;
+    line-height: 150%;
+    font-stretch: normal;
+    text-decoration: none;
+}
 .frame-text13 {
   top: 55px;
   left: 0px;
@@ -991,6 +1005,31 @@ button:hover{
   background-color: rgba(0,0,0,0.5);
 
 }
+.modal-header {
+  margin-bottom: 32px;
+  width: 66%;
+}
+.modal-header h2{
+  padding-bottom: 14px;
+  text-align: center;
+  border-bottom: 2px solid var(--dl-color-default-gold); 
+}
+.spisok {
+  padding-top: 14px;
+  display: flex;
+  justify-content: center; 
+  width: 100;
+}
+
+.spisok button {
+  background-color: transparent;
+  color: #000;
+  display: inline-block;
+  margin: 0 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  font-size: 22px;
+}
 
 /* Содержимое */
 .modal-content {
@@ -1005,6 +1044,24 @@ button:hover{
   border-radius: 32px;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
 }
+.con{
+  display: flex;
+  justify-content: space-between; 
+}
+.modal-content {
+  display: flex;
+}
+
+
+.img{
+  align-content: left;
+}
+.imge{
+  width: 350px;
+  height: 350px;
+  border-radius: 16px;
+}
+
 .modal-row input {
   width: 70%;
 }
@@ -1061,9 +1118,7 @@ button {
   color: #fff;
   border: none;
 }
-.needFurniture{
-  width: 10px;
-}
+
 .furniture-field {
   display: flex;
   align-items: center;
@@ -1078,9 +1133,7 @@ button {
 .CheboxText{
   font-size: 24px;
 }
-.modal-header h2{
-  padding-bottom: 24px;
-}
+
 #furnitureCountBlock {
   display: none; 
 }
@@ -1115,4 +1168,28 @@ button {
 .delivery-field input, 
 .assembly-field input {
   margin: 0;
+}
+.selection-option{
+  margin-top: 30px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 36px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.tab{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.content-left {
+  width: 50%;
+  padding-right: 80px;
+}
+.content-right {
+  width: 50%;
+}
+
+.spisok button.active {
+  color: var(--dl-color-default-gold); 
 }
